@@ -1,0 +1,127 @@
+body{
+	font:12px/1.5 Arial, Microsoft YaHei, "微软雅黑";
+	background-color: white;
+	margin: 0 0 0 0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-size: 100%;
+    font-weight: normal;
+}
+#main_panel{
+	float: left;
+	width: 1200px;
+}
+
+/*fruit panel*/
+#fruit_panel{
+	width: 800px;
+	float: left;
+	background-color: pink;
+}
+.fruit_area{
+	margin-top: 10px;
+	float:left; 
+	width:800px; 
+	display: block;
+}
+.fruit_area .fruit_category h2{ 
+	display:block;
+	background:url(../image/ctit_bg.png) repeat-x 0 0; 
+	width:650px;
+	height:50px; 
+	line-height:50px; 
+	padding-left:20px; 
+	font-size:18px; 
+	color:#9a550a; 
+	cursor:pointer;
+	position:relative; 
+	margin-bottom:10px
+}
+.fruit_area .fruit_category h2:hover{ 
+	opacity:0.8; 
+	color:#5d0501
+}
+.fruit_area .bdelement{ 
+	background: url(../image/ctit_bg.png); 
+	float: left; 
+	margin-right:10px; 
+	width:200px; 
+	border:2px solid #c19680; 
+	z-index:0; 
+	margin-bottom:10px; 
+	height:290px; 
+	padding:0px; 
+	position:relative; 
+	line-height:30px; 
+	font-size:16px;
+}
+.fruit_area .bdelement .aimg{
+	margin-right:0px;
+	position:relative; 
+	z-index:999 
+}
+.fruit_area .bdelement .aimg img{
+	width:200px;
+	height:200px;
+	border-bottom:2px;
+}
+.fruit_area .bdelement .aimg p{
+	margin-left: 10px;
+}
+.fruit_area .bdelement:hover{
+	border:2px solid #6f0601
+}
+.fruit_area .bdelement:hover .aimg img{
+	width:200px;
+	height:200px;
+	border-bottom:2px solid #6f0601;
+}
+.fruit_area .bdelement .price{ margin-top:0px; margin-left: 10px; margin-bottom: 10px; padding-left:0px; color:#b11902;}
+.fruit_area .bdelement .bigimgbar{border:#c79b84 solid 4px;box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); 
+padding:10px; position:absolute; z-index:100; width:317px; background-color:#fff; 
+display:none; right:-150px!important; left:auto!important; top:-2px; zoom:1; cursor:auto;}
+.fruit_area .bdelement .bigimgbar img{ margin:0px; padding:0px; display:block; margin-bottom:8px; 
+	width:317px; height:317px}
+.fruit_area .bdelement .bigimgbar p{ margin-left:  margin:0px; line-height:30px}
+.fruit_area .bdelement .bigimgbar .addcart{ margin-top:5px; }
+.fruit_area .showadd .addcart{ display:block; -webkit-animation:fadeIn 1s ease both;
+ -moz-animation:fadeIn 0.5s ease both; position:relative}
+.fruit_area .select { background-color:#fff}
+.fruit_area .select .addcart s{ display:block; 	-webkit-animation:fadeInUp .5s .2s ease both; 
+	-moz-animation:fadeInUp .5s .2s ease both}
+.fruit_area .absolute{ position:absolute; left:0px; top:0px; z-index:999;color:#000; background-image:none;
+ 	background-color:#fff;
+	-moz-transition:border-color .3s ease-in;
+	-webkit-transition:border-color .3s ease-in;
+	-o-transition:border-color .3s ease-in;
+  	transition:border-color .3s ease-in;
+	-webkit-animation:none;
+	-moz-animation:none;
+}
+.fruit_area .add_into_basket{
+	cursor:pointer;
+}
+.fruit_basket {
+	float: right;
+	width: 400px;
+}
+
+/*fruit basket*/
+.fruit_basket h2{ margin: 0 0 0 0;background-color:#6f0601; color:#fff; font-size:18px; 
+	text-align:center; line-height:50px; height:50px; letter-spacing:3px}
+.fruit_basket .bd{ border:#c19680 solid 2px; border-top:none; background-color:#eee1ce; padding-bottom:20px}
+.fruit_basket .bdbox{ padding-left:20px; padding-bottom:10px; padding-top:0px;background-color:#eee1ce;}
+.fruit_basket .item{  padding-top:20px}
+.fruit_basket .item h3{ color:#9a550a; font-size:18px; background:url(../images/jbw/line_x2.jpg) repeat-x 0px bottom;
+ padding-bottom:10px; display:block }
+.fruit_basket .element{ display:block; clear:both; overflow:hidden; border-bottom:#a6a6a6 dashed 1px; 
+	padding:0px 0px; font-size:14px; color:#201e1a; }
+.fruit_basket .element:after{content:"."; display:block; height:0;
+ line-height:0; clear:both; visibility:hidden; font-size:0;}
+.fruit_basket .tipsbar{
+	margin-left: 20px;
+}
+.fruit_basket .thumbnails{
+	width:30px;
+	height:30px;
+}
